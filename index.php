@@ -40,7 +40,7 @@ and open the template in the editor.
             $third->add_grade(65);
             $third->add_grade(85);
             $third->add_grade(75);
-            $students['b567'] = $first;
+            $students['b567'] = $third;
             ksort($students); // one of the many sort functions
             foreach ($students as $student){
                 echo $student->toString();
